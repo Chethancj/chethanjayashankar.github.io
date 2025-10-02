@@ -5,52 +5,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chethan Jayashankar | Data Scientist</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="banner">
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="assets/profile.jpg" alt="Chethan Jayashankar" class="profile-pic">
       <h1>Chethan Jayashankar</h1>
-      <p>Data Scientist | Machine Learning | AI Enthusiast</p>
-      <a href="#projects" class="btn">View My Work</a>
+      <p class="tagline">Turning Data into Decisions | MSc Data Science</p>
+      <a href="#projects" class="btn">Explore My Work</a>
     </div>
   </header>
 
   <!-- About -->
-  <section id="about">
+  <section id="about" class="section">
     <h2>About Me</h2>
     <p>
       I'm Chethan Jayashankar, completed my Master’s in Data Science at Coventry University. My journey into data started with curiosity, the idea that numbers and patterns can reveal powerful stories about people, systems, and decisions.
 Over time, I’ve worked on projects ranging from healthcare analytics, like predicting hyperglycaemia risk in diabetic patients, to financial fraud detection and natural language processing. What excites me most is using data not just to build models, but to solve meaningful problems that have real-world impact.
-I enjoy combining technical skills of Python, machine learning, deep learning, and SQL  with a problem-solving mindset. Whether it’s cleaning messy datasets, building predictive models, or creating interactive apps, I see data science as both an art and a science.
+I enjoy combining technical skills of Python, machine learning, deep learning, and SQL with a problem-solving mind-set. Whether it’s cleaning messy datasets, building predictive models, or creating interactive apps, I see data science as both an art and a science.
 Outside academics, I’m fascinated by entrepreneurship, technology-driven businesses, and exploring how AI can be applied in everyday life. I’m also working towards building a data-driven business that combines my passion for analytics with long-term financial independence.
-When I’m not working with data, you’ll usually find me boxing (it teaches me discipline and resilience), reading about startups and personal finance, or exploring new places around the UK. These interests give me balance — they keep me sharp, curious, and grounded, both as a person and as a professional.
+When I’m not working with data, you’ll usually find me boxing (it teaches me discipline and resilience), reading about start-ups and personal finance, or exploring new places around the UK. These interests give me balance as they keep me sharp, curious, and grounded, both as a person and as a professional.
 My goal is simple: to grow as a data scientist who not only understands algorithms, but also how to apply them responsibly, ethically, and effectively.
+
     </p>
   </section>
 
+  <!-- Highlights -->
+  <section id="highlights" class="section highlights">
+    <div class="highlight-card">
+      <h3>10+</h3>
+      <p>Data Science Projects</p>
+    </div>
+    <div class="highlight-card">
+      <h3>3+</h3>
+      <p>Years of Experience</p>
+    </div>
+    <div class="highlight-card">
+      <h3>5+</h3>
+      <p>Technical Certifications</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><i class="fab fa-python"></i> Python</div>
+      <div><i class="fas fa-database"></i> SQL</div>
+      <div><i class="fas fa-brain"></i> Machine Learning</div>
+      <div><i class="fas fa-robot"></i> Deep Learning</div>
+      <div><i class="fas fa-chart-line"></i> Data Visualization</div>
+      <div><i class="fab fa-git-alt"></i> Git & GitHub</div>
+    </div>
+  </section>
+
   <!-- Projects -->
-  <section id="projects">
+  <section id="projects" class="section">
     <h2>Projects</h2>
     <div class="project-grid">
       <div class="project-card">
+        <img src="assets/titanic.png" alt="Titanic Project">
         <h3>Titanic ML Model</h3>
         <p>Predicting survival using Logistic Regression and Random Forests.</p>
         <a href="https://github.com/yourusername/titanic-ml" target="_blank">View on GitHub</a>
       </div>
       <div class="project-card">
+        <img src="assets/fraud.png" alt="Fraud Detection">
         <h3>Fraud Detection</h3>
-        <p>ML pipeline to detect fraudulent transactions with high accuracy.</p>
+        <p>Detecting fraudulent transactions using ML pipelines.</p>
         <a href="https://github.com/yourusername/fraud-detection" target="_blank">View on GitHub</a>
       </div>
       <div class="project-card">
+        <img src="assets/sentiment.png" alt="Sentiment Analysis">
         <h3>Sentiment Analysis</h3>
         <p>Classifying customer reviews using NLP & deep learning models.</p>
         <a href="https://github.com/yourusername/sentiment-analysis" target="_blank">View on GitHub</a>
       </div>
       <div class="project-card">
+        <img src="assets/diabetes.png" alt="Diabetes Risk App">
         <h3>Diabetes Risk App</h3>
         <p>Streamlit app predicting hyperglycaemia risk with ML models.</p>
         <a href="https://github.com/yourusername/diabetes-risk-app" target="_blank">View on GitHub</a>
@@ -58,39 +94,27 @@ My goal is simple: to grow as a data scientist who not only understands algorith
     </div>
   </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Python (Pandas, NumPy, Scikit-learn)</li>
-      <li>Deep Learning (TensorFlow, PyTorch)</li>
-      <li>SQL & Data Engineering</li>
-      <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
-
   <!-- Resume -->
-  <section id="resume">
+  <section id="resume" class="section">
     <h2>Resume</h2>
     <p>Download my resume below:</p>
     <a href="assets/Chethan_Jayashankar_Resume.pdf" class="btn" target="_blank">Download Resume</a>
   </section>
 
   <!-- Contact -->
-  <section id="contact">
+  <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Let's connect!</p>
     <div class="contact-links">
-      <a href="mailto:youremail@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
-      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="mailto:youremail@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Chethan Jayashankar | Built with ❤️ and GitHub Pages</p>
+    <p>© 2025 Chethan Jayashankar | Built with ❤️ using GitHub Pages</p>
   </footer>
+
 </body>
 </html>
